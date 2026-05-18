@@ -118,3 +118,37 @@ footer{
     background-color: var(--color-secundario);
 }
 
+/* ===================================================
+    SECCION SOBRE MI
+   =================================================== */
+
+#sobre-mi {
+    padding: 80px 60px;
+    text-align: center;
+}
+
+#sobre-mi h2 {
+    font-size: 2rem;
+    color: var(--color-secundario);
+    margin-bottom: 40px;
+}
+
+.perfil{
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: var(--color-tarjeta);
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid #ede9fe;
+    box-shadow: 0 4px 20px rgba(124,58,237,0.08);
+}
+
+.avatar {
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+.perfil .p {
+    color:#4b5563;
+    font-size: 1.05rem;
+}
