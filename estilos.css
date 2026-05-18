@@ -63,3 +63,58 @@ nav a.activo {
     border-bottom: 2px solid var(--color-primario);
     padding-bottom: 3px;
 }
+
+/* ===================================================
+    SECCION FOOTER
+   =================================================== */
+
+footer{
+    text-align: center;
+    padding: 30px;
+    background-color: #ede9fe;
+    font-size: 0.9rem;
+}
+
+/* ===================================================
+    SECCION INICIO
+   =================================================== */
+
+#inicio {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+#inicio h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.nombre {
+    color: var(--color-primario);
+}
+
+#inicio p{
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin-bottom: 30px;
+    color: #4b5563;
+}
+
+.boton {
+    background-color: var(--color-primario);
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.boton:hover{
+    background-color: var(--color-secundario);
+}
+
