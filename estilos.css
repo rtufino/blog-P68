@@ -1,0 +1,65 @@
+/* VARIABLES - Paleta de colores del sitio */
+:root {
+    --color-fondo: #f8f5ff;
+    --color-primario: #7c3aed;
+    --color-secundario: #0891b2;
+    --color-texto: #1e1b4b;
+    --color-tarjeta: #ffffff;
+    --fuente: 'Segoe UI', sans-serif;
+}
+
+/* RESET - Borrar estilos por defecto del navegadores */ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;    
+}
+
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: var(--fuente);
+    line-height: 1.7;
+}
+
+/* NAVEGACION */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0, 0.08);
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-primario);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: var(--color-texto);
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+nav a:hover {
+    color: var(--color-secundario);
+}
+
+nav a.activo {
+    color: var(--color-primario);
+    font-weight: bold;
+    border-bottom: 2px solid var(--color-primario);
+    padding-bottom: 3px;
+}

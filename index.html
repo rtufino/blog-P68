@@ -4,11 +4,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width; initial-scale=1.0">
         <title>Blog Personal</title>
+        <link rel="stylesheet" href="estilos.css">
     </head>
     <body>
         <nav>
+            <span class="logo">Mi Blog</span>
             <ul>
-                <li>Inicio</li>
+                <li>
+                    <a href="#" class="activo">Inicio</a>
+                </li>
                 <li>
                     <a href="sobre-mi.html">Sobre mi</a>
                 </li>
@@ -20,7 +24,18 @@
                 </li>
             </ul>
         </nav>
-        <h1>Hola Mundo</h1>
-        <p>Bienvenid@ a mi Blog personal.</p>
+
+        <section id="inicio">
+            <h1>Hola, soy <span class="nombre">Rodrigo</span> 👋🏼</h1>
+            <p>
+                Bienvenid@ a mi espacio personal. Aquí comparto 
+                mis intereses, ideas y un poco de quien soy.
+            </p>
+            <a href="sobre-mi.html" class="boton">Conóceme más</a>
+        </section>
+
+        <footer>
+            <p>Programando 😎 y CSS - 2026</p>
+        </footer>
     </body>
 </html>
