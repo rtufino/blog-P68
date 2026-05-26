@@ -1,28 +1,67 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width; initial-scale=1.0">
-        <title>Hobbies</title>
-    </head>
-    <body>
-        <nav>
-            <span class="logo">Mi Blog</span>
-            <ul>
-                <li>
-                    <a href="index.html">Inicio</a></li>
-                <li>
-                    <a href="sobre-mi.html">Sobre mi</a>
-                </li>
-                <li>
-                    Hobbies
-                </li>
-                <li>
-                    <a href="educacion.html">Educación</a>
-                </li>
-            </ul>
-        </nav>
-        <h1>Mis Hobbies</h1>
-        <p>Esto es lo que me gusta hacer</p>
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hobbies — Mi Blog</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <nav>
+    <span class="logo">MiBlog</span>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="sobre-mi.html">Sobre mí</a></li>
+      <li><a href="#" class="activo">Hobbies</a></li>
+      <li><a href="educacion.html">Educación</a></li>
+    </ul>
+  </nav>
+
+  <section id="hobbies">
+    <h2>Mis Hobbies</h2>
+
+    <!-- Panel 1: imagen izquierda -->
+    <div class="panel">
+      <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=400" alt="Videojuegos">
+      <div class="panel-info">
+        <h3>🎮 Videojuegos</h3>
+        <p>Me apasionan los juegos de estrategia y RPG. Disfruto explorar mundos abiertos y resolver desafíos que ponen a prueba la creatividad y el pensamiento lógico.</p>
+      </div>
+    </div>
+
+    <!-- Panel 2: imagen derecha -->
+    <div class="panel invertido">
+      <img src="https://images.unsplash.com/photo-1493863641943-9b68992a8d07?w=400" alt="Fotografía">
+      <div class="panel-info">
+        <h3>📷 Fotografía</h3>
+        <p>Capturar momentos cotidianos con una perspectiva diferente es lo que más me gusta. Especialmente la fotografía urbana y los retratos con luz natural.</p>
+      </div>
+    </div>
+
+    <!-- Panel 3: imagen izquierda -->
+    <div class="panel">
+      <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400" alt="Música">
+      <div class="panel-info">
+        <h3>🎵 Música</h3>
+        <p>Toco guitarra desde los 14 años. La música es mi forma de desconectarme y expresar lo que a veces las palabras no alcanzan a decir.</p>
+      </div>
+    </div>
+
+    <!-- Panel 4: imagen derecha -->
+    <div class="panel invertido">
+      <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400" alt="Lectura">
+      <div class="panel-info">
+        <h3>📚 Lectura</h3>
+        <p>Los libros de ciencia ficción y tecnología son mis favoritos. Actualmente leyendo "El Problema de los Tres Cuerpos" de Liu Cixin.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>Hecho con ❤️ y CSS — 2025</p>
+  </footer>
+
+</body>
 </html>

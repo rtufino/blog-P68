@@ -152,3 +152,95 @@ footer{
     color:#4b5563;
     font-size: 1.05rem;
 }
+
+/* ================================
+   SECCIÓN HOBBIES
+================================ */
+#hobbies {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+#hobbies h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: var(--color-secundario);
+}
+
+.panel {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background-color: var(--color-tarjeta);
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #ede9fe;
+  transition: all 0.3s;
+  text-align: left;
+}
+
+.panel:hover {
+  border-color: var(--color-primario);
+  transform: translateX(6px);
+}
+
+.panel img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 14px;
+  flex-shrink: 0;
+}
+
+.panel-info h3 {
+  font-size: 1.4rem;
+  color: var(--color-primario);
+  margin-bottom: 10px;
+}
+
+.panel-info p {
+  color: #4b5563;
+  font-size: 1rem;
+}
+
+.panel.invertido {
+  flex-direction: row-reverse;
+}
+
+/* ================================
+   SECCIÓN EDUCACIÓN
+================================ */
+#educacion {
+  padding: 80px 60px;
+  background-color: #ede9fe;
+}
+
+#educacion h2 {
+  font-size: 2rem;
+  color: var(--color-secundario);
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.linea-tiempo {
+  max-width: 600px;
+  margin: 0 auto;
+  border-left: 3px solid var(--color-primario);
+  padding-left: 30px;
+}
+
+.evento {
+  margin-bottom: 30px;
+}
+
+.año {
+  font-weight: bold;
+  color: var(--color-primario);
+  font-size: 1.1rem;
+}
+
+.evento p {
+  color: #4b5563;
+  margin-top: 4px;
+}
